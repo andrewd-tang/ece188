@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M2</title>
+  <style>
+    .screen{
+      width: 256px;
+      height: 128px;
+      border: 1px solid brown;
+      font-size: 40px;
+      style: text-align:top;
+    }
+    .input {
+      width: 256px;
+      height: 256px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class='screen'>
+    <p id='text_disp'><p>
+  </div>
+  <br>
+
+  <div class='input' id='input_screen'>
+    <canvas id="cvsMain"></canvas>
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+  <script>var text = "";</script>
+  <script src="/src/main.js"></script>
+</body>
+</html>
